@@ -1,0 +1,21 @@
+{
+  "name": "contractfactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.4.33"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "@optionality.io/clone-factory": "^0.2.1",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "contractName": "FactoryTest",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MetaCoinCloneFactory.sol\":\"FactoryTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MetaCoinCloneFactory.sol\":{\"keccak256\":\"0x2af854a34fcbbab03b85e4675c904ceea33e13ec35b2006ac730d31f93f3bc1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5c915a5a1293c30831faedf310075fc42dc4c2184ed4030d55e324e28102de3a\",\"dweb:/ipfs/QmcuksioW8s42W8RNmfAJRJ9j12DVtqX7ThzeD44SXfdgL\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204f72613e126736b2c20433d4a69f8dee5e61de2cc6bcaeb50276813ee53e918e64736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212204f72613e126736b2c20433d4a69f8dee5e61de2cc6bcaeb50276813ee53e918e64736f6c63430008090033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:53:6:-:0;;;91:26;;;;;;;;;;66:53;;;;;;",
+  "deployedSourceMap": "66:53:6:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract FactoryTest {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/home/Desktop/Projects/Solidity/ContractFactory/contracts/MetaCoinCloneFactory.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MetaCoinCloneFactory.sol",
+    "exportedSymbols": {
+      "FactoryTest": [
+        861
+      ]
+    },
+    "id": 862,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 856,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "FactoryTest",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 861,
+        "linearizedBaseContracts": [
+          861
+        ],
+        "name": "FactoryTest",
+        "nameLocation": "75:11:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 859,
+              "nodeType": "Block",
+              "src": "112:5:6",
+              "statements": []
+            },
+            "id": 860,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 857,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:2:6"
+            },
+            "returnParameters": {
+              "id": 858,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:0:6"
+            },
+            "scope": 861,
+            "src": "91:26:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 862,
+        "src": "66:53:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:88:6"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/MetaCoinCloneFactory.sol",
+    "exportedSymbols": {
+      "FactoryTest": [
+        861
+      ]
+    },
+    "id": 862,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 856,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "FactoryTest",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 861,
+        "linearizedBaseContracts": [
+          861
+        ],
+        "name": "FactoryTest",
+        "nameLocation": "75:11:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 859,
+              "nodeType": "Block",
+              "src": "112:5:6",
+              "statements": []
+            },
+            "id": 860,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 857,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:2:6"
+            },
+            "returnParameters": {
+              "id": 858,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:0:6"
+            },
+            "scope": 861,
+            "src": "91:26:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 862,
+        "src": "66:53:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:88:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2022-02-18T18:52:01.050Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
